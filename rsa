@@ -25,9 +25,9 @@ import sys
 
 
 # fn unpack number factorial
-def factorize():
+def factors():
     """
-    function factorize to search file to convert number and format n=p*q
+    function factors to search file to convert number and format n=p*q
     """
     try:
         revfile = sys.argv[1]
@@ -50,4 +50,4 @@ def factorize():
 
 
 # autostart
-factorize()
+factors()
